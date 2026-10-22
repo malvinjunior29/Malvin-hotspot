@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Remote WiFi Audit - Malvin Hotspot</title>
+<style>
+body{font-family:Arial;background:#0f172a;color:white;padding:20px;max-width:600px;margin:auto}
+.card{background:#1e293b;padding:20px;border-radius:15px;margin:15px 0}
+.btn{display:block;background:#25D366;color:white;padding:15px;text-align:center;border-radius:10px;text-decoration:none;font-weight:bold;margin:10px 0}
+.warn{background:#f59e0b;color:black;padding:10px;border-radius:8px}
+code{background:#000;padding:3px 6px;border-radius:4px}
+</style>
+</head>
+<body>
+<h2>🔒 Remote WiFi Audit - $5</h2>
+<p>Check who is stealing your WiFi from anywhere in Zim. With your permission only.</p>
+
+<div class="card">
+<h3>How it works (with your permission):</h3>
+<p>Your home WiFi devices (192.168.x.x) are hidden behind NAT. I cannot see them from Harare without your help. You install a safe VPN that invites me inside.</p>
+</div>
+
+<div class="warn">
+<b>⚠️ Permission Required:</b> I only scan after you send me your Tailscale IP on WhatsApp. No hidden scanning.
+</div>
+
+<div class="card">
+<h3>Step 1: Install Tailscale</h3>
+<a class="btn" href="https://play.google.com/store/apps/details?id=com.tailscale.ipn" target="_blank">📲 Install Tailscale from Play Store</a>
+<p>Open app > Sign in with Google > Allow VPN</p>
+</div>
+
+<div class="card">
+<h3>Step 2: Copy your Tailscale IP</h3>
+<p>In Tailscale app you will see IP like <code>100.89.12.34</code></p>
+<p>Screenshot or copy it</p>
+</div>
+
+<div class="card">
+<h3>Step 3: Send to Malvin for Scan</h3>
+<p>WhatsApp me your Tailscale IP + message "Yes, scan my WiFi, I give permission"</p>
+<a class="btn" href="https://wa.me/263717752973?text=Hi%20Malvin%20I%20give%20permission%20to%20scan%20my%20WiFi.%20My%20Tailscale%20IP%20is%3A%20">💬 Send IP on WhatsApp - 0717752973</a>
+<p>Command I will run (from Harare, with your permission):</p>
+<code>nmap -sn 100.x.x.x/24</code>
+<p>Then I send you full report + list of thieves + how to block them.</p>
+</div>
+
+<div class="card">
+<h3>Payment $5</h3>
+<p>EcoCash: 0717752973</p>
+<p>After payment you get:</p>
+<ul>
+<li>Number of devices</li>
+<li>Thief devices list</li>
+<li>How to block them</li>
+</ul>
+</div>
+
+<p style="text-align:center;opacity:0.6"><a href="index.html" style="color:white">Back to Home</a></p>
+</body>
+</html>
